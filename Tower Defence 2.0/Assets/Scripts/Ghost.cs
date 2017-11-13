@@ -12,17 +12,16 @@ public class Ghost : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        oldPos = transform.position.x;
+        
     }
 	
 	// Update is called once per frame
 	void Update () {
         transform.GetComponent<NavMeshAgent>().destination = destinationPoint.position;
 
-        /*if (last.x == transform.position.x)
+        if(transform.position == null)
         {
-            //move background
+            Debug.Log("Stoppad");
         }
-        oldPos = transform.position;*/
     }
 }
