@@ -94,6 +94,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bf5c5703e6e658419defc462db858f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   speed: 25
+=======
+  speed: 15
+>>>>>>> 8fdc182aa41e4f6d6b955ccf75c4aaca33659792
   enemytag: Enemy
   turnSpeed: 10
