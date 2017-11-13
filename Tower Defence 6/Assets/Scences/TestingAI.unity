@@ -19589,8 +19589,11 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a4c240c... Merge branch 'master' of https://github.com/Quzymac/tower-defense-6
+=======
+>>>>>>> parent of febe565... Stuff??
     - target: {fileID: 114997473205883510, guid: 1304ebcccd99e4d43a6c07929fbd41dc,
         type: 2}
       propertyPath: fireRate
@@ -19601,10 +19604,13 @@ Prefab:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> a4c240c7f6bc2681c4219541d6d1af633cb47ad5
 =======
 >>>>>>> parent of a4c240c... Merge branch 'master' of https://github.com/Quzymac/tower-defense-6
+=======
+>>>>>>> parent of febe565... Stuff??
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1304ebcccd99e4d43a6c07929fbd41dc, type: 2}
   m_IsPrefabParent: 0
