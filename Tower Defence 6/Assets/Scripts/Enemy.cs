@@ -15,7 +15,6 @@ public class Enemy : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
         transform.GetComponent<NavMeshAgent>().destination = targetPoint.position; //stops on arrival
 
     }
