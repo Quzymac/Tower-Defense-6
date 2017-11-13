@@ -19560,6 +19560,7 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 1084248954043848, guid: 1304ebcccd99e4d43a6c07929fbd41dc, type: 2}
       propertyPath: m_TagString
       value: Untagged
@@ -19575,6 +19576,8 @@ Prefab:
 >>>>>>> parent of 15f0461... Highlight script
 =======
 >>>>>>> parent of fa0fec1... Merge branch 'master' of https://github.com/Quzymac/tower-defense-6
+=======
+>>>>>>> parent of 15f0461... Highlight script
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1304ebcccd99e4d43a6c07929fbd41dc, type: 2}
   m_IsPrefabParent: 0
