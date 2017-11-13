@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 33509759211594678}
   - component: {fileID: 65366561349029300}
   - component: {fileID: 23645954700361414}
+  - component: {fileID: 114623160766076820}
   m_Layer: 0
   m_Name: CanonBody
   m_TagString: Untagged
@@ -115,7 +116,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1392327473727622}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.07, y: 1.03, z: 3.04}
+  m_LocalPosition: {x: 4, y: 1, z: 3}
   m_LocalScale: {x: 0.8, y: 0.5, z: 0.8}
   m_Children:
   - {fileID: 4695303795848460}
@@ -283,6 +284,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114623160766076820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392327473727622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f244cd9a5c2c1408ad5931e38fc407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 14.7
 --- !u!114 &114997473205883510
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -296,7 +309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   range: 5
-  fireRate: 0.5
+  fireRate: 1
   enemytag: Enemy
   partToRotate: {fileID: 4695303795848460}
   turnSpeed: 15

@@ -4,31 +4,25 @@ using UnityEngine;
 
 public class IfCanWalk : MonoBehaviour {
 
-    public Transform destinationPoint;
-    private Transform curPos;
-    //private Transform lastPos;
-    private Vector2 oldPos;
+    private Transform _myTransform = null;
+    private Vector3 _lastPosition;
 
-    Vector3 lastPos;
-    [SerializeField] Transform obj; // drag the object to monitor here
-    float threshold = 0.1f; // minimum displacement to recognize a 
-    void Start()
+    private void Awake()
     {
-        lastPos = obj.position;
+        _myTransform = transform;
+        _lastPosition = _myTransform.position;
     }
-    void Update()
+
+    private void Update()
     {
-        Vector3 offset = obj.position - lastPos;
-        if (offset.x > threshold)
+        if (_lastPosition == _myTransform.position)
         {
-            lastPos = obj.position; // update lastPos
-            Debug.Log("Större");                    // code to execute when X is getting bigger
+            Debug.Log("Did not move");
         }
         else
-        if (offset.x < -threshold)
         {
-            lastPos = obj.position; // update lastPos
-            Debug.Log("Större");                   // code to execute when X is getting smaller 
+            Debug.Log("Moved");
         }
+        _lastPosition = _myTransform.position;
     }
 }
