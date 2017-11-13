@@ -1465,7 +1465,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee72b4cd867e6d4396e9989c99f35e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  ghost: {fileID: 1103567031869514, guid: b05d91ba24642544fa3ab5903b91c1a0, type: 2}
+=======
   ghost: {fileID: 1888605537218700, guid: c4b5d10386e4aca4aa54d4e51d35b0ad, type: 2}
+>>>>>>> parent of febe565... Stuff??
 --- !u!4 &92080498
 Transform:
   m_ObjectHideFlags: 0
@@ -19591,8 +19595,51 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4553542298854990, guid: 1304ebcccd99e4d43a6c07929fbd41dc, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 13
+=======
+      value: 12
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a4c240c... Merge branch 'master' of https://github.com/Quzymac/tower-defense-6
+=======
+>>>>>>> parent of febe565... Stuff??
+=======
+>>>>>>> parent of febe565... Stuff??
+    - target: {fileID: 114997473205883510, guid: 1304ebcccd99e4d43a6c07929fbd41dc,
+        type: 2}
+      propertyPath: fireRate
+      value: 1
+>>>>>>> 0d1aef7c5068864a14a6c30ddbaac97cbd2896ea
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    - target: {fileID: 1084248954043848, guid: 1304ebcccd99e4d43a6c07929fbd41dc, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a4c240c7f6bc2681c4219541d6d1af633cb47ad5
+=======
+>>>>>>> parent of a4c240c... Merge branch 'master' of https://github.com/Quzymac/tower-defense-6
+=======
+>>>>>>> parent of febe565... Stuff??
+=======
+>>>>>>> parent of 15f0461... Highlight script
+=======
+>>>>>>> parent of fa0fec1... Merge branch 'master' of https://github.com/Quzymac/tower-defense-6
+=======
+>>>>>>> parent of 15f0461... Highlight script
+=======
+>>>>>>> parent of febe565... Stuff??
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1304ebcccd99e4d43a6c07929fbd41dc, type: 2}
   m_IsPrefabParent: 0
