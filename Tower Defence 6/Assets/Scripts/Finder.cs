@@ -14,7 +14,7 @@ public class Finder : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKey(KeyCode.Return))
+		if(Input.GetKey(KeyCode.Space))
 			transform.GetComponent<NavMeshAgent> ().destination = destinationPoint.position;
 	}
 }
