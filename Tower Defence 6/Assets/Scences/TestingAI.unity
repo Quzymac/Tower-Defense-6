@@ -1465,7 +1465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee72b4cd867e6d4396e9989c99f35e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ghost: {fileID: 1888605537218700, guid: c4b5d10386e4aca4aa54d4e51d35b0ad, type: 2}
+  ghost: {fileID: 1103567031869514, guid: b05d91ba24642544fa3ab5903b91c1a0, type: 2}
 --- !u!4 &92080498
 Transform:
   m_ObjectHideFlags: 0
@@ -12367,48 +12367,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 721836401}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &732757997
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4593475838445058, guid: c4b5d10386e4aca4aa54d4e51d35b0ad, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 4593475838445058, guid: c4b5d10386e4aca4aa54d4e51d35b0ad, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4593475838445058, guid: c4b5d10386e4aca4aa54d4e51d35b0ad, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 4593475838445058, guid: c4b5d10386e4aca4aa54d4e51d35b0ad, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4593475838445058, guid: c4b5d10386e4aca4aa54d4e51d35b0ad, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4593475838445058, guid: c4b5d10386e4aca4aa54d4e51d35b0ad, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4593475838445058, guid: c4b5d10386e4aca4aa54d4e51d35b0ad, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4593475838445058, guid: c4b5d10386e4aca4aa54d4e51d35b0ad, type: 2}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: c4b5d10386e4aca4aa54d4e51d35b0ad, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &740340376
 GameObject:
   m_ObjectHideFlags: 0
@@ -19590,6 +19548,7 @@ Prefab:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a4c240c... Merge branch 'master' of https://github.com/Quzymac/tower-defense-6
 =======
@@ -19614,6 +19573,8 @@ Prefab:
 >>>>>>> parent of febe565... Stuff??
 =======
 >>>>>>> parent of 15f0461... Highlight script
+=======
+>>>>>>> parent of fa0fec1... Merge branch 'master' of https://github.com/Quzymac/tower-defense-6
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1304ebcccd99e4d43a6c07929fbd41dc, type: 2}
   m_IsPrefabParent: 0
