@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IfCanWalk : MonoBehaviour {
 
-    public bool checkIfReady = true;
+    private bool checkIfReady = true;
 
     void Start()
     {
@@ -14,7 +14,7 @@ public class IfCanWalk : MonoBehaviour {
     {
 
     }
-    public bool CheckIfReady()
+    protected bool CheckIfReady()
     {
         if (this.GetComponent<Rigidbody>().IsSleeping().Equals(false))
         {
