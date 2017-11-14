@@ -4,25 +4,17 @@ using UnityEngine;
 
 public class IfCanWalk : MonoBehaviour {
 
-    private Transform _myTransform = null;
-    private Vector3 _lastPosition;
+    public bool checkIfReady = true;
 
-    private void Awake()
+    void Start()
     {
-        _myTransform = transform;
-        _lastPosition = _myTransform.position;
+        
     }
-
-    private void Update()
+    void Update()
     {
-        if (_lastPosition == _myTransform.position)
+        if (GetComponent<Rigidbody>().IsSleeping() == true)
         {
-            Debug.Log("Did not move");
+            checkIfReady = false;
         }
-        else
-        {
-            Debug.Log("Moved");
-        }
-        _lastPosition = _myTransform.position;
     }
 }
