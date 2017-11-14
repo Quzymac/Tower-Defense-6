@@ -12,16 +12,23 @@ public class IfCanWalk : MonoBehaviour {
     }
     void Update()
     {
-        if (GetComponent<Rigidbody>().IsSleeping() == true)
-        {
-            checkIfReady = false;
-        }
+
     }
-    public bool CheckIfReady
+    public bool CheckIfReady()
     {
-        get
+        if (this.GetComponent<Rigidbody>().IsSleeping().Equals(false))
         {
-            return checkIfReady;
+            Debug.Log("Jag är restattad");
+            return true;
+            //checkIfReady = true;
         }
+        else if (this.GetComponent<Rigidbody>().IsSleeping().Equals(true))
+        {
+            Debug.Log("jag sa ju det");
+            return false;
+            //checkIfReady = false;
+        }
+        else
+            return true;
     }
 }

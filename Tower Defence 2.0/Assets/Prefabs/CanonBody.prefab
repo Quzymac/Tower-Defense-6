@@ -295,7 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67f244cd9a5c2c1408ad5931e38fc407, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 14.7
+  distance: 14
 --- !u!114 &114997473205883510
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -307,9 +307,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6464ad8aed7249f47a79dbb44def68ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 4593475838445058, guid: c4b5d10386e4aca4aa54d4e51d35b0ad, type: 2}
+  target: {fileID: 0}
   range: 5
-  fireRate: 1
+  fireRate: 2
   enemytag: Enemy
   partToRotate: {fileID: 4695303795848460}
   turnSpeed: 15

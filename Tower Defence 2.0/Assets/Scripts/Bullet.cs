@@ -55,7 +55,7 @@ public class Bullet : MonoBehaviour {
     }
     void HitTarget()
     {
-        Destroy(gameObject);
+        Destroy(this.gameObject);
         // damage enemy here
     }
 }

@@ -23,8 +23,8 @@ GameObject:
   - component: {fileID: 65675448009314054}
   - component: {fileID: 23813163613764272}
   - component: {fileID: 195872155434559850}
-  - component: {fileID: 114973825901959106}
   - component: {fileID: 54581911887919056}
+  - component: {fileID: 114290200369030170}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -113,7 +113,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114973825901959106
+--- !u!114 &114290200369030170
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -121,11 +121,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1888605537218700}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15dc3ea1ee5d4564ba923277c6b99090, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a31b29b0b1a0924391ebdc640af5087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destinationPoint: {fileID: 4236017540202684, guid: a4948eb40f80c7a45b838c9179a67164,
+  targetPoint: {fileID: 4236017540202684, guid: a4948eb40f80c7a45b838c9179a67164,
     type: 2}
+  health: 5
+  damageTakenFromCanon: 1
 --- !u!195 &195872155434559850
 NavMeshAgent:
   m_ObjectHideFlags: 1

@@ -18,7 +18,7 @@ public class DstinationGoal : MonoBehaviour
     {
         if (GameObject.FindGameObjectWithTag("Ghost") == null)
         {
-            Debug.Log("Finns inte");
+            //Debug.Log("Finns inte");
             float currentX = spawnLocation.transform.position.x;
             float currentZ = spawnLocation.transform.position.z;
 
@@ -33,7 +33,7 @@ public class DstinationGoal : MonoBehaviour
     {
         if (other.transform.tag == "Ghost")
         {
-            Debug.Log("Hej");
+            //Debug.Log("Hej");
             //GameObject newGhost = (GameObject)Instantiate(ghost, transform.position, transform.rotation) as GameObject;
 
             Destroy(GameObject.FindGameObjectWithTag("Ghost"));

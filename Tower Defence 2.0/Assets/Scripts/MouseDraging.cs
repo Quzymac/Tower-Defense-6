@@ -23,6 +23,6 @@ public class MouseDraging : MonoBehaviour {
 
         transform.position = objPosition;
 
-        Debug.Log("X: " + (int)mousePosition.x + " Y: " + (int)mousePosition.y);
+        //Debug.Log("X: " + (int)mousePosition.x + " Y: " + (int)mousePosition.y);
     }
 }

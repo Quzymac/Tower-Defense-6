@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WaveSpawning : MonoBehaviour
+public class WaveSpawning : IfCanWalk
 {
 
     [SerializeField] private GameObject enemy;
@@ -21,10 +21,9 @@ public class WaveSpawning : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (GetComponent<IfCanWalk>().CheckIfReady == false)
+            if (CheckIfReady() == true)
             {
                 Debug.Log("True");
 
@@ -48,7 +47,10 @@ public class WaveSpawning : MonoBehaviour
                 {
                     Debug.Log("Wave is ongoing!");
                 }
+                waveIsGoing = false;
             }
+            else
+                Debug.Log("Move cubes");
         }
     }
 }
