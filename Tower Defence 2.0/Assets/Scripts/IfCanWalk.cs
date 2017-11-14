@@ -17,4 +17,11 @@ public class IfCanWalk : MonoBehaviour {
             checkIfReady = false;
         }
     }
+    public bool CheckIfReady
+    {
+        get
+        {
+            return checkIfReady;
+        }
+    }
 }
