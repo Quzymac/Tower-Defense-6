@@ -6,16 +6,20 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
+    public Image healthBar;
+    public float maxHealth;
+
+
 
     public Transform targetPoint;
 
-    public int health = 5;
-    [SerializeField] int damageTakenFromCanon = 1;
+    public float health = 5f;
+    [SerializeField] float damageTakenFromCanon = 1;
 
     // Use this for initialization
     void Start()
     {
-
+        maxHealth = health;
         transform.GetComponent<NavMeshAgent>().destination = targetPoint.position; //stops on arrival
 
     }
@@ -57,9 +61,11 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    void TakeDamage(int Damage)
+    void TakeDamage(float Damage)
     {
         health -= Damage;
+
+        healthBar.fillAmount = health / maxHealth;
     }
 }
 
