@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class DstinationGoal : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class DstinationGoal : MonoBehaviour
 
     void Start()
     {
-        
+        //NavMesh.CalculatePath();
     }
 
     // Update is called once per frame

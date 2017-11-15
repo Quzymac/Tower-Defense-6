@@ -1,34 +1,56 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
-public class IfCanWalk : MonoBehaviour {
+public class IfCanWalk : MonoBehaviour
+{
 
-    private bool checkIfReady = true;
+    protected bool checkIfReady = true;
+    [SerializeField] GameObject ghost;
+    [SerializeField] protected GameObject spawnLocation;
+    [SerializeField] GameObject targetLocation;
+
+    private float oldPosX;
+    private float oldPosZ;
 
     void Start()
     {
-        
+
     }
     void Update()
     {
+        //float currentX = spawnLocation.transform.position.x;
+        //float currentZ = spawnLocation.transform.position.z;
 
+        //NavMesh.CalculatePath(spawnLocation, targetLocation, NavMesh.AllAreas, path);
+        /*if (this.ghost.GetComponent<Rigidbody>().IsSleeping().Equals(false))
+        {
+            Debug.Log("False");
+            //return true;
+            checkIfReady = true;
+        }*/
+        if (this.ghost.GetComponent<Rigidbody>().IsSleeping().Equals(true))
+        {
+            Debug.Log("True");
+            //return false;
+            checkIfReady = false;
+           
+        }
     }
-    protected bool CheckIfReady()
+    /*private void Update()
     {
-        if (this.GetComponent<Rigidbody>().IsSleeping().Equals(false))
+        oldPosX = transform.position.x;
+        oldPosZ = transform.position.z;
+        if (oldPosX > transform.position.x)
         {
-            Debug.Log("Jag är restattad");
-            return true;
-            //checkIfReady = true;
+            print("moving right");
         }
-        else if (this.GetComponent<Rigidbody>().IsSleeping().Equals(true))
+        if (oldPosZ > transform.position.z)
         {
-            Debug.Log("jag sa ju det");
-            return false;
-            //checkIfReady = false;
+            print("moving left");
         }
-        else
-            return true;
-    }
+        oldPosX = transform.position.x;
+        oldPosZ = transform.position.z;
+    }*/
 }

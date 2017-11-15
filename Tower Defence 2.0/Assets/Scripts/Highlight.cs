@@ -9,16 +9,22 @@ public class Highlight : MonoBehaviour {
     private Renderer rend;
     private Color startColor;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start() {
         rend = GetComponent<Renderer>();
         startColor = rend.material.color;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    private void OnMouseEnter()
+    {
         rend.material.color = hoverColor;
-	}
+    }
 
     private void OnMouseExit()
     {

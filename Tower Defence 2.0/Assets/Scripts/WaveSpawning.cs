@@ -6,7 +6,7 @@ public class WaveSpawning : IfCanWalk
 {
 
     [SerializeField] private GameObject enemy;
-    [SerializeField] private GameObject spawnLocation;
+    //[SerializeField] private GameObject spawnLocation;
 
     private bool waveIsGoing = false;
     private int waveCounter;
@@ -23,7 +23,7 @@ public class WaveSpawning : IfCanWalk
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (CheckIfReady() == true)
+            if (checkIfReady == true)
             {
                 Debug.Log("True");
 

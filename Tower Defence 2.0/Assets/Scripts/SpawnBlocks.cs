@@ -2,29 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnBlocks : MonoBehaviour {
+public class SpawnBlocks : MonoBehaviour
+{
 
-    [SerializeField] GameObject cube2;
-    [SerializeField] GameObject cubeOrigin;
+    [SerializeField] GameObject blockToSpawn;
+    [SerializeField] float objectHeight;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
     private void OnMouseUpAsButton()
     {
         if (Input.GetMouseButtonUp(0))
         {
-            float currentX = cubeOrigin.transform.position.x;
-            float currentZ = cubeOrigin.transform.position.z;
+            float currentX = transform.position.x;
+            float currentZ = transform.position.z;
 
-            GameObject cube = GameObject.Instantiate(cube2);
-            cube.transform.position = new Vector3(currentX, 0.3f, currentZ);
-            cube.transform.SetParent(cubeOrigin.transform);
+            GameObject cube = GameObject.Instantiate(blockToSpawn);
+            cube.transform.position = new Vector3(currentX, objectHeight, currentZ);
+            cube.transform.SetParent(transform);
 
             Debug.Log("Summon me!");
         }
